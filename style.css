@@ -1,0 +1,54 @@
+#plugin_switcher_container {
+	width: 90%;
+	margin: 100px auto 0 auto;
+	font-size: 13px;
+}
+
+#plugin_switcher_container h3 {
+	text-align: center;
+}
+
+#plugin_switcher_container fieldset {
+	background: #f7fcfe;
+	width: 95%;
+	padding: 10px;
+	border: 1px solid #d2e5ee;
+	border-radius: 12px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+}
+
+#plugin_switcher_container fieldset legend {
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#plugin_switcher_container fieldset > div {
+	padding: 6px 0;
+}
+
+#plugin_switcher_container fieldset > div input {
+	margin-right: 12px;
+}
+
+#plugin_switcher_container fieldset > div span {
+	display: inline-block;
+	width: 20px;
+	height: 16px;
+	vertical-align: bottom;
+}
+
+#plugin_switcher_container fieldset > div span.ajax_loading {
+	background: url("ajax_loader.gif") no-repeat;
+}
+
+#plugin_switcher_container fieldset > div span.success {
+	width: 114px;
+	background: #0f0;
+}
+
+#plugin_switcher_container fieldset > div span.error {
+	width: 114px;
+	background: #f60;
+}
